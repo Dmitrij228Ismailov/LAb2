@@ -1,0 +1,10 @@
+s = int(input("Введите первое число"))
+m = int(input("Введите второе число"))
+chas = s/m
+summ = s + m
+raz = s - m
+prz = s*m
+srd = (s+m)/2
+mod =  max(abs(s),abs(m)) - min(abs(s),abs(m))
+print(summ, raz, prz, srd, mod)
+print(f'{chas:.2f}')
